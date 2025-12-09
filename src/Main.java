@@ -1,5 +1,6 @@
 import day2.DecisionMaking;
 import day2.Switch;
+import day3.Loops;
 
 public class Main {
 
@@ -52,11 +53,25 @@ public class Main {
 //		decisionMaking.convert(n);
 
 // day 2 Switch
-		Switch switch1 = new Switch();
-		int n =10;
-		switch1.printDay(n);
+//		Switch switch1 = new Switch();
+//		int n =10;
+//		switch1.printDay(n);
 		
+// day3 Loops
+		Loops loops = new Loops();
+//		loops.printArray();
+//		loops.sumAndAverage();
+//		loops.printList();
+//		loops.sumAndAverageEx2();
+//		loops.sumAndAverageEx3();
+//		loops.sumAndAverageEx4();
+//		loops.sumAndAverageEx5();
+//		loops.harmonicSum();
+//		loops.squareBoard();
+//		loops.checkerBoard();
+		loops.findKeyWord();
 	}
+	
 
 	public static int tinhTong() {
 		int tong = 0;
